@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-// import gif from "./assets/gif.gif";
 import welcomeLaptop from "./assets/welcomeLaptop.png";
 import {
   Github,
@@ -264,7 +263,7 @@ function App() {
           "MongoDB",
           "Cloudinary",
         ],
-        link: "wordhive.vercel.app",
+        link: "https://wordhive.vercel.app",
           },
           {
         icon: Puzzle,
