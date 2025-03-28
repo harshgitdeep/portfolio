@@ -216,30 +216,30 @@ function App() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-12 text-center">Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="p-6 bg-gray-50 rounded-lg text-center">
-              <Code className="w-12 h-12 mx-auto mb-4 text-gray-700" />
-              <h3 className="text-xl font-semibold mb-2">Frontend</h3>
-              <p className="text-gray-600">
-                HTML, CSS, React, JavaScript, TypeScript, Tailwind CSS
-              </p>
-            </div>
-            <div className="p-6 bg-gray-50 rounded-lg text-center">
-              <Server className="w-12 h-12 mx-auto mb-4 text-gray-700" />
-              <h3 className="text-xl font-semibold mb-2">Backend</h3>
-              <p className="text-gray-600">Node.js, Express, Dotnet</p>
-            </div>
-            <div className="p-6 bg-gray-50 rounded-lg text-center">
-              <Database className="w-12 h-12 mx-auto mb-4 text-gray-700" />
-              <h3 className="text-xl font-semibold mb-2">Database</h3>
-              <p className="text-gray-600">SQL, MongoDB</p>
-            </div>
-            <div className="p-6 bg-gray-50 rounded-lg text-center">
-              <Layout className="w-12 h-12 mx-auto mb-4 text-gray-700" />
-              <h3 className="text-xl font-semibold mb-2">
-                Programming Language
-              </h3>
-              <p className="text-gray-600">Java, C, C++</p>
-            </div>
+        <div className="p-6 bg-gray-50 rounded-lg text-center transition-transform transform hover:scale-105 hover:shadow-lg">
+          <Code className="w-12 h-12 mx-auto mb-4 text-gray-700" />
+          <h3 className="text-xl font-semibold mb-2">Frontend</h3>
+          <p className="text-gray-600">
+            HTML, CSS, React, JavaScript, TypeScript, Tailwind CSS
+          </p>
+        </div>
+        <div className="p-6 bg-gray-50 rounded-lg text-center transition-transform transform hover:scale-105 hover:shadow-lg">
+          <Server className="w-12 h-12 mx-auto mb-4 text-gray-700" />
+          <h3 className="text-xl font-semibold mb-2">Backend</h3>
+          <p className="text-gray-600">Node.js, Express, Dotnet</p>
+        </div>
+        <div className="p-6 bg-gray-50 rounded-lg text-center transition-transform transform hover:scale-105 hover:shadow-lg">
+          <Database className="w-12 h-12 mx-auto mb-4 text-gray-700" />
+          <h3 className="text-xl font-semibold mb-2">Database</h3>
+          <p className="text-gray-600">SQL, MongoDB</p>
+        </div>
+        <div className="p-6 bg-gray-50 rounded-lg text-center transition-transform transform hover:scale-105 hover:shadow-lg">
+          <Layout className="w-12 h-12 mx-auto mb-4 text-gray-700" />
+          <h3 className="text-xl font-semibold mb-2">
+            Programming Language
+          </h3>
+          <p className="text-gray-600">Java, C, C++</p>
+        </div>
           </div>
         </div>
       </Section>
