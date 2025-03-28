@@ -4,7 +4,7 @@ import { GitFork, Star } from "lucide-react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import welcomeLaptop from "./assets/welcomeLaptopr.png";
-import codergraphic from "./assets/codergraphic.gif";
+import codergraphic from "./assets/codergraphic.png";
 
 import {
   Github,
@@ -264,9 +264,9 @@ function App() {
         <motion.img
           src={codergraphic}
           alt=""
-          width="300"
-          whileHover={{ scale: 1.1, rotate: 2 }}
-          transition={{ type: "spring", stiffness: 300, damping: 20 }}
+          width="250"
+          // whileHover={{ scale: 1.1, rotate: 2 }}
+          // transition={{ type: "", stiffness: 300, damping: 20 }}
           className="rounded-lg"
         />
       </div>
