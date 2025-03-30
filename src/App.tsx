@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { GitFork, Star } from "lucide-react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -63,7 +63,7 @@ function Section({
 
 const experiences = [
   {
-    company: "Cyber Groups Ltd",
+    company: "Cyber Groups Infinity, Noida",
     role: "SDE Intern",
     period: "September 2024 - Present",
     description: "Spearheaded the migration of HRMS from .NET Framework 4 to .NET Core 8.0, ensuring seamless transition with minimal downtime. Optimized legacy code, improved performance, and integrated modern APIs.",
@@ -137,27 +137,27 @@ function App() {
           </motion.div>
         </div>
       </Section>
+
       {/* About Section */}
       <Section className="">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
           <p className="text-lg text-gray-600 text-justify mb-6">
-            I am a dedicated Software Development Engineer Intern currently
-            pursuing my third year of Bachelor of Engineering. My journey in
-            software development is driven by a passion for crafting interactive
-            and dynamic web applications that deliver exceptional user
-            experiences.
+            Software Development Engineer Intern with experience in developing
+            interactive and scalable web applications. Currently in the third
+            year of a Bachelor of Engineering program, with a focus on frontend
+            development.
           </p>
           <p className="text-lg text-gray-600 text-justify">
-            With a strong focus on frontend development, I specialize in
-            leveraging modern technologies such as React and Next.js to design
-            responsive and intuitive interfaces. I am committed to continuous
-            learning and skill enhancement to consistently deliver innovative
-            and high-quality solutions.
+            Proficient in modern web technologies, including React and Next.js,
+            to build responsive and optimized user interfaces. Continuously
+            improving technical expertise to develop efficient and
+            high-performance solutions.
           </p>
         </div>
         <div className="flex justify-center mt-5"></div>
       </Section>
+
       <div className="flex items-center justify-center text-center">
         <motion.img
           src={welcomeLaptop}
@@ -168,6 +168,7 @@ function App() {
           className="rounded-lg"
         />
       </div>
+
       {/* Experience Section */}
       <Section className="">
         <div className="max-w-4xl mx-auto">
@@ -379,7 +380,7 @@ function App() {
         </div>
       </Section>
       {/* GitHub Section */}
-      <section className="max-w-4xl mx-auto mt-20">
+      <Section className="max-w-4xl mx-auto mt-20">
         {/* <h2 className="text-3xl font-bold mb-12 text-center">GitHub Profile</h2> */}
         <div className="flex flex-col items-center gap-6">
           <a
@@ -418,7 +419,7 @@ function App() {
             </div>
           ))}
         </div>
-      </section>
+      </Section>
       {/* Contact Section */}
       <Section>
         <div className="max-w-4xl mx-auto text-center">
